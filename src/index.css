@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'GOT';
+  src: url('./fonts/gameofthrones.ttf');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
