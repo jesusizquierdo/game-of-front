@@ -2,7 +2,9 @@
     "Title": {
         "1": "JUEGO DE TRONOS"
     },
-    "Why": {
-        "1": "Por ver esto"
+    "Nav": {
+        "1": "Personajes",
+        "2": "Casas",
+        "3": "Cronología"
     }
 }

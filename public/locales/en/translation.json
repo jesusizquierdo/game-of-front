@@ -1,8 +1,10 @@
 {
     "Title": {
-        "1": "GAME OF TRHONES"
+        "1": "GAME OF THRONES"
     },
-    "Why": {
-        "1": "For whatching this"
+    "Nav": {
+        "1": "Characters",
+        "2": "Houses",
+        "3": "Chronology"
     }
 }

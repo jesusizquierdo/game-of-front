@@ -1,0 +1,21 @@
+.div {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.father-container {
+    width: 500%;
+    height: 500%;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+  }

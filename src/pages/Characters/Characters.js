@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from 'react';
-import './App.css';
+import '../../App.css';
+import '../../pages/Characters/Characters.css';
+
 import {Link} from 'react-router-dom';
 
-function Shop() {
+function Characters() {
   useEffect (() => {
     fetchItems();
   }, []);
@@ -20,10 +22,10 @@ function Shop() {
   };
 
   return (
-    <div>
+    <div className="container">
       {items.map(item => (
-        <figure>
-          <Link to={`/shop/${item.itemid}`}> {item.name}
+        <figure className="container">
+          <Link to={`/characters/${item.itemid}`}> {item.name}
           <img src={item.image} key={item.image}/>
           <h4 key={item.id}> {item.name}</h4>
           </Link>
@@ -33,4 +35,4 @@ function Shop() {
   );
 }
 
-export default Shop;
+export default Characters;

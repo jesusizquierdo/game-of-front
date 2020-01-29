@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import '../../App.css';
 
-function About() {
+function Chronology() {
   return (
     <div>
       <h1>About page</h1>
@@ -9,4 +9,4 @@ function About() {
   );
 }
 
-export default About;
+export default Chronology;

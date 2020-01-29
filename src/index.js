@@ -8,9 +8,11 @@ import './i18next';
 
 
 ReactDOM.render(
+    //<div className="lds-ripple">
     <Suspense fallback='Loading' >
         <App />
     </Suspense>
+    //</div>
     
     , document.getElementById('root'));
 
