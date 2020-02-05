@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b53ec367cd24d8c7fd95aaba67e90cca",
+    "revision": "7cd4d7f43eab4f5a057c8de3fc4e00b4",
     "url": "/game-of-front/index.html"
   },
   {
-    "revision": "45d91a0042cd6ba4176b",
+    "revision": "aad1d25e82e8dde8311a",
     "url": "/game-of-front/static/css/main.b8cd4d71.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/game-of-front/static/js/2.add127fe.chunk.js.LICENSE"
   },
   {
-    "revision": "45d91a0042cd6ba4176b",
-    "url": "/game-of-front/static/js/main.cf8096ac.chunk.js"
+    "revision": "aad1d25e82e8dde8311a",
+    "url": "/game-of-front/static/js/main.19c14b90.chunk.js"
   },
   {
     "revision": "4513fdf6935b4fc2bc11",
