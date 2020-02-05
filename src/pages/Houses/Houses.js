@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import '../../App.scss';
-import {Link} from 'react-router-dom';
 import '../../pages/Houses/Houses.scss';
+
+import {Link} from 'react-router-dom';
 
 function Houses() {
   useEffect (() => {
@@ -21,19 +22,19 @@ function Houses() {
   };
 
   return (
-    <div className="container-fluid ">
+  <div className="container-fluid ">
       <div className="row">
-
+    
       {items.map(item => (
         <figure className="col-sm-12 col-md-4 col-lg-1">
-          <Link to={`/houses/${item.itemid}`}> {item.name}
-          <img className="b-gallery" src={item.logoURL} key={item.logoURL}/>
-          <h4 key={item.id}> {item.name}</h4>
+          <Link to={`/characters/${item.id}`}>
+          <img className="b-gallery img-fluid" src={item.logoURL} key={item.logoURL} width={180} height={220}/>
+          <figcaption key={item.id}> {item.name}</figcaption>
           </Link>
         </figure>
       ))}
-      </div>
     </div>
+  </div>
   );
 }
 

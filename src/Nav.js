@@ -27,8 +27,8 @@ function Nav() {
     return (
     <div className="b-nav">
       <div className="b-nav__buscador">
-          <input className="b-nav__buscador input" type="text" placeholder="Buscar"></input>
           <button className="b-nav__buscador button" type="submit"><img src={Search} alt="search"/></button>
+          <input className="b-nav__buscador input" type="text" placeholder="Buscar"></input>
 
         </div>
         <ul className="b-nav__links">
