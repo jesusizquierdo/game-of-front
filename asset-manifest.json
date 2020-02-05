@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.458eb742.chunk.css",
-    "main.js": "/static/js/main.5c045e49.chunk.js",
-    "main.js.map": "/static/js/main.5c045e49.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e2abee3b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e2abee3b.js.map",
-    "static/js/2.add127fe.chunk.js": "/static/js/2.add127fe.chunk.js",
-    "static/js/2.add127fe.chunk.js.map": "/static/js/2.add127fe.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.26b2b2785486adea29da550471b08511.js": "/precache-manifest.26b2b2785486adea29da550471b08511.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.458eb742.chunk.css.map": "/static/css/main.458eb742.chunk.css.map",
-    "static/js/2.add127fe.chunk.js.LICENSE": "/static/js/2.add127fe.chunk.js.LICENSE",
-    "static/media/Home.scss": "/static/media/backgroundimage.46457879.jpg",
-    "static/media/index.scss": "/static/media/gameofthrones.3af178ec.ttf"
+    "main.css": "/game-of-front/static/css/main.b8cd4d71.chunk.css",
+    "main.js": "/game-of-front/static/js/main.cf8096ac.chunk.js",
+    "main.js.map": "/game-of-front/static/js/main.cf8096ac.chunk.js.map",
+    "runtime-main.js": "/game-of-front/static/js/runtime-main.04b2268c.js",
+    "runtime-main.js.map": "/game-of-front/static/js/runtime-main.04b2268c.js.map",
+    "static/js/2.add127fe.chunk.js": "/game-of-front/static/js/2.add127fe.chunk.js",
+    "static/js/2.add127fe.chunk.js.map": "/game-of-front/static/js/2.add127fe.chunk.js.map",
+    "index.html": "/game-of-front/index.html",
+    "precache-manifest.03e23cdae875a2eb8c9596f55eaaf5f6.js": "/game-of-front/precache-manifest.03e23cdae875a2eb8c9596f55eaaf5f6.js",
+    "service-worker.js": "/game-of-front/service-worker.js",
+    "static/css/main.b8cd4d71.chunk.css.map": "/game-of-front/static/css/main.b8cd4d71.chunk.css.map",
+    "static/js/2.add127fe.chunk.js.LICENSE": "/game-of-front/static/js/2.add127fe.chunk.js.LICENSE",
+    "static/media/Home.scss": "/game-of-front/static/media/backgroundimage.46457879.jpg",
+    "static/media/index.scss": "/game-of-front/static/media/gameofthrones.3af178ec.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2abee3b.js",
+    "static/js/runtime-main.04b2268c.js",
     "static/js/2.add127fe.chunk.js",
-    "static/css/main.458eb742.chunk.css",
-    "static/js/main.5c045e49.chunk.js"
+    "static/css/main.b8cd4d71.chunk.css",
+    "static/js/main.cf8096ac.chunk.js"
   ]
 }
