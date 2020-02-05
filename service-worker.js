@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/game-of-front/precache-manifest.0c04976954ef41a95c624e6063908bac.js"
+  "/game-of-front/precache-manifest.03e23cdae875a2eb8c9596f55eaaf5f6.js"
 );
 
 self.addEventListener('message', (event) => {
