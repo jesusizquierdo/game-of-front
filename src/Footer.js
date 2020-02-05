@@ -13,8 +13,8 @@ function Footer() {
     const { t } = useTranslation();
 
     return (
-    <div className="footer">
-        <ul className="footer-links">
+    <div className="b-footer">
+        <ul className="b-footer__links">
             <Link style={footerStyle} to='/characters'>
             <li>{t('Nav.1')}</li>
             </Link>

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import '../../App.css';
-import '../../pages/Characters/Characters.css';
+import '../../App.scss';
+import '../../pages/Characters/Characters.scss';
 
 import {Link} from 'react-router-dom';
 
@@ -22,16 +22,19 @@ function Characters() {
   };
 
   return (
-    <div className="container">
+  <div className="container-fluid ">
+      <div className="row">
+    
       {items.map(item => (
-        <figure className="container">
-          <Link to={`/characters/${item.itemid}`}> {item.name}
-          <img src={item.image} key={item.image}/>
-          <h4 key={item.id}> {item.name}</h4>
+        <figure className="col-sm-12 col-md-4 col-lg-1">
+          <Link to={`/characters/${item.id}`}>
+          <img className="b-gallery img-fluid" src={item.image} key={item.image}/>
+          <figcaption key={item.id}> {item.name}</figcaption>
           </Link>
         </figure>
       ))}
     </div>
+  </div>
   );
 }
 
