@@ -25,4 +25,36 @@ $container-max-widths: (
 .b-gallery {
     max-width: 248px;
     max-height: 320px;
+
+    &__details {
+    display: block;
+    margin: auto;
+    width: 150px;
+    }
+}
+
+.b-characters {
+
+  &__font {
+    color: white;
+    font-family: 'GOT';
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__font--text {
+    color: white;
+    font-family: 'LATO';
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__font--space {
+    color: white;
+    width: 96%;
+    font-family: 'LATO';
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5% 0 5%;
+  }
 }

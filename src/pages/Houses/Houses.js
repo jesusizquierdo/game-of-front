@@ -27,13 +27,14 @@ function Houses() {
     
       {items.map(item => (
         <figure className="col-sm-12 col-md-4 col-lg-1">
-          <Link to={`/characters/${item.id}`}>
-          <img className="b-gallery img-fluid" src={item.logoURL} key={item.logoURL} width={180} height={220}/>
+          <Link to={`/houses/${item.name}`}>
+          <img className="b-gallery img-fluid" src={item.logoURL} alt="house" key={item.logoURL} width={180} height={220}/>
           <figcaption key={item.id}> {item.name}</figcaption>
           </Link>
         </figure>
       ))}
     </div>
+    : null
   </div>
   );
 }

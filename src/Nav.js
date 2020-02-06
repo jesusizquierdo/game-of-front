@@ -17,7 +17,7 @@ function Nav() {
         color: 'white'
     };
   
-    const { i18n } = useTranslation();
+    const { t, i18n } = useTranslation();
 
   function handleClick(lang) {
   i18n.changeLanguage(lang);
@@ -27,8 +27,8 @@ function Nav() {
     return (
     <div className="b-nav">
       <div className="b-nav__buscador">
-          <button className="b-nav__buscador button" type="submit"><img src={Search} alt="search"/></button>
-          <input className="b-nav__buscador input" type="text" placeholder="Buscar"></input>
+          <button className="b-nav__buscador button" type="submit"><img className="b-nav__icon" src={Search} alt="search"/></button>
+          <input className="b-nav__buscador input" type="text" placeholder={t('Nav.4')}></input>
 
         </div>
         <ul className="b-nav__links">

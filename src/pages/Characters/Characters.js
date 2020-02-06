@@ -27,7 +27,7 @@ function Characters() {
     
       {items.map(item => (
         <figure className="col-sm-12 col-md-4 col-lg-1">
-          <Link to={`/characters/${item.id}`}>
+          <Link to={`/characters/${item.name}`}>
           <img className="b-gallery img-fluid" src={item.image} key={item.image}/>
           <figcaption key={item.id}> {item.name}</figcaption>
           </Link>
