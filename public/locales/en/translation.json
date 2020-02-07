@@ -6,6 +6,14 @@
         "1": "Characters",
         "2": "Houses",
         "3": "Chronology",
-        "4": "Search"
+        "4": "Search..."
+    },
+    "Character": {
+        "1": "HOUSE",
+        "2": "ALLIANCES",
+        "3": "APPEARANCES",
+        "4": "FATHER",
+        "5": "DECENDENTS",
+        "6": "TITLES"
     }
 }

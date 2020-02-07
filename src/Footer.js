@@ -16,13 +16,13 @@ function Footer() {
     <div className="b-footer">
         <ul className="b-footer__links">
             <Link style={footerStyle} to='/characters'>
-            <li>{t('Nav.1')}</li>
+            <li><h2>{t('Nav.1')}</h2></li>
             </Link>
             <Link style={footerStyle} to='/houses'>
-            <li>{t('Nav.2')}</li>
+            <li><h2>{t('Nav.2')}</h2></li>
             </Link>
             <Link style={footerStyle} to='/chronology'>
-            <li>{t('Nav.3')}</li>
+            <li><h2>{t('Nav.3')}</h2></li>
             </Link>
         </ul>
     </div>

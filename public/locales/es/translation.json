@@ -6,6 +6,15 @@
         "1": "Personajes",
         "2": "Casas",
         "3": "Cronología",
-        "4": "Buscar"
+        "4": "Buscar..."
+    },
+    "Character": {
+        "1": "CASA",
+        "2": "ALIANZAS",
+        "3": "APARICIONES",
+        "4": "PADRE",
+        "5": "DESCENDIENTES",
+        "6": "TÍTULOS"
     }
+    
 }

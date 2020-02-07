@@ -22,19 +22,18 @@ function Houses() {
   };
 
   return (
-  <div className="container-fluid ">
+  <div className="container-fluid" className="b-characters__background">
       <div className="row">
     
       {items.map(item => (
         <figure className="col-sm-12 col-md-4 col-lg-1">
           <Link to={`/houses/${item.name}`}>
           <img className="b-gallery img-fluid" src={item.logoURL} alt="house" key={item.logoURL} width={180} height={220}/>
-          <figcaption key={item.id}> {item.name}</figcaption>
+          <figcaption key={item.id}><h5 className="b-characters__font">{item.name}</h5></figcaption>
           </Link>
         </figure>
       ))}
     </div>
-    : null
   </div>
   );
 }

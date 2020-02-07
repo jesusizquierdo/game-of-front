@@ -33,10 +33,10 @@ function Nav() {
         </div>
         <ul className="b-nav__links">
             <Link to="/"><li><img src={IconHome} alt="Home"/></li></Link>
-            <span className="c-text__hide">:
+            <span className="c-text__hide">:::
             </span>
             <li onClick={() => handleClick('es')}><img src={Spain} alt="Spanish"/></li>
-            <span className="c-text__hide">::
+            <span className="c-text__hide">::::
             </span>
             <li onClick={() => handleClick('en')}><img src={Uk} alt="English"/></li>
         </ul>

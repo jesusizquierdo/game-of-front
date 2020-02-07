@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 
+import { useTranslation } from 'react-i18next';
+
 
 function ItemDetail({ match }) {
   const details = match.params.id;
@@ -18,23 +20,27 @@ function ItemDetail({ match }) {
     const [item, setItem] = useState({});
     console.log(item);
 
+    const { t } = useTranslation();
+
   return (
-    <div className="container-fluid" className="app">
+    <div className="container-fluid" className="b-characters__background" >
 
       <img className="b-gallery__details" src={item.image} alt=" " key={item.image}></img>
-        <h4 className="b-characters__font">{item.name}</h4> 
+        <h2 className="b-characters__font">{item.name}</h2> 
         
         <div className="col-sm-6 col-md-2 col-lg-1" className="b-characters__font">
 
-          {/*<h4>CASA</h4>*/}
+          <h4>{t('Character.1')}</h4>
 
-          <h4>ALIANZAS</h4>
+          <h4>{t('Character.2')}</h4>
 
-          <h4>PADRE</h4>
+          <h4>{t('Character.3')}</h4>
 
-          <h4>DESCENDIENTES</h4>
+          <h4>{t('Character.4')}</h4>
 
-          <h4>TÍTULOS</h4>
+          <h4>{t('Character.5')}</h4>
+
+          <h4>{t('Character.6')}</h4>
 
         </div>
 
@@ -42,7 +48,11 @@ function ItemDetail({ match }) {
 
          {/*<img src={item.logoURL} key={item.logoURL} alt="house" width={180} height={220}></img>*/}
           
+         <p className="b-characters__font--space">{item.logoURL}</p>
+          
           <p className="b-characters__font--space">{item.allegiances}</p>
+
+          <p className="b-characters__font--space">{item.appearances}</p>
 
           <p className="b-characters__font--space">{item.father}</p>
 
